@@ -1,0 +1,55 @@
+.grid {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 180px;
+    aspect-ratio: 1/1;
+    border: 1px solid black;
+}
+
+.grid div {
+    width: 20px;
+    aspect-ratio: 1/1;
+}
+
+.ending-block {
+    background-color: red;
+}
+
+.starting-block {
+    background-color: blue;
+}
+
+.log-left, 
+.log-right {
+    background-color: lightblue;
+}
+
+.l1,
+.l2,
+.l3 {
+    background-color: brown;
+}
+
+.l4,
+.l5 {
+    background-color: lightblue;
+}
+
+.car-left,
+.car-right {
+    background-color: lightgrey;
+}
+
+.c1 {
+    background-color: black;
+}
+
+.c2,
+.c3 {
+    background-color: lightgrey;
+}
+
+.frog {
+    background-color: green;
+}
